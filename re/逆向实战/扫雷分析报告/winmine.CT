@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"高度"</Description>
+      <LastState Value="9" RealAddress="01005338"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+5338</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"高度"</Description>
+      <LastState Value="9" RealAddress="010056A8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+56A8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"宽度"</Description>
+      <LastState Value="14" RealAddress="01005334"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+5334</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"宽度"</Description>
+      <LastState Value="14" RealAddress="010056AC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+56AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"雷数"</Description>
+      <LastState Value="11" RealAddress="01005194"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+5194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"雷数"</Description>
+      <LastState Value="11" RealAddress="01005330"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+5330</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"雷数"</Description>
+      <LastState Value="11" RealAddress="010056A4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>winmine.exe+56A4</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
