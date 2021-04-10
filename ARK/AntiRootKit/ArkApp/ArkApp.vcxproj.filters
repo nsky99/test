@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFC通用文件">
+      <UniqueIdentifier>{7611f01b-2ad5-4a14-aa0f-249847985b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark主程序">
+      <UniqueIdentifier>{17d8c392-dddd-4927-9650-9ce359a65824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark主程序">
+      <UniqueIdentifier>{744ec1d9-0140-4d2a-8859-7b92f55903de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark驱动管理">
+      <UniqueIdentifier>{e785aab9-19ce-40d2-b0c4-558560085501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark进程相关">
+      <UniqueIdentifier>{1ced4714-0cb9-4e4b-b4a3-cfaa97812820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark通用文件">
+      <UniqueIdentifier>{758c1d47-fa82-42b5-b34b-aac8fef05ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark驱动相关">
+      <UniqueIdentifier>{f6744fd1-7538-4e6e-9fcc-3cd416ce6851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控件相关">
+      <UniqueIdentifier>{817b8ad9-c9ae-4efc-9ec7-ea793d6d4e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark线程相关">
+      <UniqueIdentifier>{aae37329-3896-4a85-92e0-b3a0090fb889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark模块相关">
+      <UniqueIdentifier>{2c14be1a-3db7-4580-97cc-58907251a7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark文件相关">
+      <UniqueIdentifier>{6e8177c2-e6d2-47a3-9b00-db90b15a57fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：ArkGDT相关">
+      <UniqueIdentifier>{cb55a8a9-958a-4ba6-9d82-856818a62958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：ArkIDT相关">
+      <UniqueIdentifier>{18962d33-98b8-4062-90dd-889f780aeb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：Ark注册表相关">
+      <UniqueIdentifier>{8ae1dc14-817d-4ba8-9574-a0525abb42c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：ArkSSDT相关">
+      <UniqueIdentifier>{49ff1f07-bfee-409d-b6ab-faa1b8c128f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>MFC通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>MFC通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkApp.h">
+      <Filter>Ark主程序</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkAppDlg.h">
+      <Filter>对话框：Ark主程序</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkCommon.h">
+      <Filter>Ark通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkOption.h">
+      <Filter>Ark驱动管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabCtrlPlus.h">
+      <Filter>控件相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgProcess.h">
+      <Filter>对话框：Ark进程相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgDriver.h">
+      <Filter>对话框：Ark驱动相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgThread.h">
+      <Filter>对话框：Ark线程相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgModule.h">
+      <Filter>对话框：Ark模块相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgGDT.h">
+      <Filter>对话框：ArkGDT相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgIDT.h">
+      <Filter>对话框：ArkIDT相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFile.h">
+      <Filter>对话框：Ark文件相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgReg.h">
+      <Filter>对话框：Ark注册表相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSSDT.h">
+      <Filter>对话框：ArkSSDT相关</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>MFC通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkApp.cpp">
+      <Filter>Ark主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkAppDlg.cpp">
+      <Filter>对话框：Ark主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkCommon.cpp">
+      <Filter>Ark通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkOption.cpp">
+      <Filter>Ark驱动管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabCtrlPlus.cpp">
+      <Filter>控件相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgProcess.cpp">
+      <Filter>对话框：Ark进程相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgDriver.cpp">
+      <Filter>对话框：Ark驱动相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgThread.cpp">
+      <Filter>对话框：Ark线程相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgModule.cpp">
+      <Filter>对话框：Ark模块相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgGDT.cpp">
+      <Filter>对话框：ArkGDT相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgIDT.cpp">
+      <Filter>对话框：ArkIDT相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFile.cpp">
+      <Filter>对话框：Ark文件相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgReg.cpp">
+      <Filter>对话框：Ark注册表相关</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSSDT.cpp">
+      <Filter>对话框：ArkSSDT相关</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArkApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ArkApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ArkApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
