@@ -1,0 +1,3 @@
+﻿  CDbg.cpp
+C:\Users\nSky\Desktop\dbgdbg\dbgdbg\CDbg.cpp(1525): warning C4172: 返回局部变量或临时变量的地址: StrLine
+  dbgdbg.vcxproj -> C:\Users\nSky\Desktop\dbgdbg\Debug\dbgdbg.exe

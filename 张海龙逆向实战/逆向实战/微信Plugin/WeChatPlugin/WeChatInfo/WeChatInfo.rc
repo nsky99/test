@@ -1,0 +1,115 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGUSERINFO DIALOGEX 0, 0, 255, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "获取用户信息",IDC_BTM_GETINFO,98,138,60,14
+    LTEXT           "ID：",IDC_STATIC_ID,30,16,25,8
+    LTEXT           "昵称：",IDC_STATIC_NAME,30,36,25,8
+    LTEXT           "手机号：",IDC_STATIC_TEL,30,55,25,8
+    LTEXT           "邮箱：",IDC_STATIC_EMIL,30,73,25,8
+    LTEXT           "账号：",IDC_STATIC_ZH,30,92,25,8
+    LTEXT           "头像网页：",IDC_STATIC_HEADER,30,111,25,8
+    EDITTEXT        IDC_EDIT_ID,64,12,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,64,33,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEL,64,52,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EMIL,64,71,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZH,64,90,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HEADER,64,108,161,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLGUSERINFO, DIALOG
+    BEGIN
+        HORZGUIDE, 20
+        HORZGUIDE, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DLGUSERINFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

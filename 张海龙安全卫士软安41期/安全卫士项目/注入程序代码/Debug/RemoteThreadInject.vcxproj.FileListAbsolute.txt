@@ -1,0 +1,2 @@
+C:\Users\nSky\source\repos\RemoteThreadInject\Debug\RemoteThreadInject.exe
+C:\Users\nSky\source\repos\RemoteThreadInject\Debug\RemoteThreadInject.pdb

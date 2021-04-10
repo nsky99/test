@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ArkDrvEntry">
+      <UniqueIdentifier>{ce75224f-8b2e-4a90-b8f9-d36502e6471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark通用文件">
+      <UniqueIdentifier>{9b92ae33-0388-4432-bd98-530b668b3d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark驱动相关">
+      <UniqueIdentifier>{a09bae09-4f99-4baf-b14f-c278c40b7f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark进程相关">
+      <UniqueIdentifier>{70aa4f39-1570-41c7-9d5a-c7913e87d963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark线程相关">
+      <UniqueIdentifier>{db4e1b7b-f39a-4a3d-b9e1-9559dd2da52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark模块相关">
+      <UniqueIdentifier>{6b39f4e9-c18e-433e-b10b-4d2d6c8d93f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark文件相关">
+      <UniqueIdentifier>{1b8426d1-9dbb-49c3-bd13-42d8bf2b22bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkGDT相关">
+      <UniqueIdentifier>{af175a50-1927-4afa-ab0c-7a0ad4127509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkIDT相关">
+      <UniqueIdentifier>{9534abce-4b05-4dda-a202-4a53bef8be15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ark注册表相关">
+      <UniqueIdentifier>{a1dd0f15-3d03-496c-ad1d-09bc9c40fbb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkSSDT相关">
+      <UniqueIdentifier>{086c32f3-75c2-4483-a7ef-e144f43435ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkSysenterHook">
+      <UniqueIdentifier>{85b6ea61-c24e-4cfc-984d-94f8db54616a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkKernelReloc">
+      <UniqueIdentifier>{3db1bebf-e18c-4bd3-8953-d3e3dc00d8fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArkDrvEntry.c">
+      <Filter>ArkDrvEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkCommon.c">
+      <Filter>Ark通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkDrv.c">
+      <Filter>Ark驱动相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkProcess.c">
+      <Filter>Ark进程相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkThread.c">
+      <Filter>Ark线程相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkModule.c">
+      <Filter>Ark模块相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkFile.c">
+      <Filter>Ark文件相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkGdt.c">
+      <Filter>ArkGDT相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkIdt.c">
+      <Filter>ArkIDT相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkReg.c">
+      <Filter>Ark注册表相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkSSDT.c">
+      <Filter>ArkSSDT相关</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkSysEnterHook.c">
+      <Filter>ArkSysenterHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkKernelReloc.c">
+      <Filter>ArkKernelReloc</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkKernelReloc1.c">
+      <Filter>ArkKernelReloc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArkDrvEntry.h">
+      <Filter>ArkDrvEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkCommon.h">
+      <Filter>Ark通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkDrv.h">
+      <Filter>Ark驱动相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkProcess.h">
+      <Filter>Ark进程相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkThread.h">
+      <Filter>Ark线程相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkModule.h">
+      <Filter>Ark模块相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkFile.h">
+      <Filter>Ark文件相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkGdt.h">
+      <Filter>ArkGDT相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkIdt.h">
+      <Filter>ArkIDT相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkReg.h">
+      <Filter>Ark注册表相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkSSDT.h">
+      <Filter>ArkSSDT相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkSysEnterHook.h">
+      <Filter>ArkSysenterHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkKernelReloc.h">
+      <Filter>ArkKernelReloc</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOp.h">
+      <Filter>ArkKernelReloc</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkKernelReloc1.h">
+      <Filter>ArkKernelReloc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

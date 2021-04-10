@@ -1,0 +1,8 @@
+WeChatWin.dll+1062C3C   微信登录二维码内容后半段
+
+WeChatWin.dll+1856A14   微信ID指针
+WeChatWin.dll+1856A8C   微信昵称地址
+WeChatWin.dll+1856AC0   手机号地址
+WeChatWin.dll+1856AA8   邮箱指针
+WeChatWin.dll+1856BF0   账号指针
+WeChatWin.dll+1856D54   头像网页指针
